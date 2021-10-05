@@ -5,11 +5,186 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/flexboxgrid.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <div class="wrapper">
+    <section id="hero">
+      <div class="hero__all-headr">
+        <div class="hero__container container">
+          <header class="hero__main-header main-header col-lg-12 col-xl-12 row middle-xs between-xs">
+            <a class="main-header__logo" href="index.html">
+              <img src="./img/headr-logo.svg" alt="headr-logo">
+            </a>
+            <nav class="main-header__nav nav">
+              <ul class="nav__list row  middle-xs">                     
+                <li class="nav__item"><a class="nav__link nav__link--activ" href="#">Product </a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Customers</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Resources</a></li>
+                <li class="nav__item"><a class="nav__link btn--nav btn--nav-activ" href="#">Sign In</a></li>
+                <li class="nav__item"><a class="nav__link btn--nav" href="#">Sign Up</a></li>
+                <li class="nav__item"><button class="nav__link nav--btn" type="button"><img src="./img/headr-btn.svg" alt=""></button></li>
+              </ul>
+            </nav>
+            <div class="main-header___btn">
+              <button class="main-header__btn"type="button"><i class='bx bx-menu'></i></button>
+            </div>
+          </header>
+        </div>
+      </div>
+      <div class="hero__container hero container">
+        <div class="hero__row row middle-md">
+          <div class="hero__img col-sm-12 col-md-7">
+            <img src="./img/amico.svg" alt="amico">
+          </div>
+          <div class="hero__des col-sm-12 col-md-5">
+            <h2 class="hero__title">Work at the speed of thought</h2>
+            <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+            <div class="hero__btns row middle-xs center-xs start-md">
+              <a class="hero__btn btn" href="#">Get started</a>
+              <a class="hero__btn-second" href="#">Watch the Video</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="futudre"> 
+        <div class="futudre__container container">
+          <h2 class="futudre__title">Product  was Built Specifically for You</h2>
+          <ul class="futudre__list col-md-12">
+            <li class="futudre__item col-md-3">
+              <h3 class="futudre__sub-title">First click tests</h3>
+              <p class="futudre__text">Sports betting, lottery and bingo playing for the fun</p>
+            </li>
+            <li class="futudre__item col-md-3">
+              <h3 class="futudre__sub-title">Design surveys</h3>
+              <p class="futudre__text">Sports betting, lottery and bingo playing for the fun</p>
+            </li>
+            <li class="futudre__item col-md-3">
+              <h3 class="futudre__sub-title">Preference tests</h3>
+              <p class="futudre__text">Sports betting, lottery and bingo playing for the fun</p>
+            </li>
+            <li class="futudre__item col-md-3">
+              <h3 class="futudre__sub-title">Five second tests</h3>
+              <p class="futudre__text">Sports betting, lottery and bingo playing for the fun</p>
+            </li>
+          </ul>
+          <a class="futudre__btn" href="#">SIGN UP NOW</a>
+        </div>
+      </section>
+      <section id="menajment">
+        <div class="menajment__container container">
+          <div class="menajment__row row">
+            <div class="menajment__img col-md-6 col-md-offset-1">
+              <img src="./img/menejment.svg" alt="menajment">
+            </div>
+            <div class="menajment__des col-md-5">
+              <p class="menejment__sub-titile">Effortless Validation for</p>
+              <h2 class="menejment__title">Management</h2>
+              <p class="menejment__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+              <p class="menejment__inner-title">Accessory makers</p>
+              <p class="menejment__text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+              <p class="menejment__inner-title">Accessory makers</p>
+              <p class="menejment__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="costmer">
+        <div class="costmer__container container">
+          <div class="costmer__row row">
+            <div class="costmer__des col-md-5 col-md-offset-1">
+              <p class="costmer__sub-title">Easier decision making for</p>
+              <h2 class="costmer__title">Customer Support</h2>
+              <p class="costmer__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+              <ul class="costmer__list">
+                <li class="costmer__item">Never worry about overpaying for your energy again. </li>
+                <li class="costmer__item">We will only switch you to energy companies that we trust and will treat you right</li>
+                <li class="costmer__item">We track the markets daily and know where the savings are.</li>
+              </ul>
+            </div>
+            <div class="costmer__img col-md-6">
+              <img src="./img/mac.svg" alt="mac">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="collaborative">
+        <div class="menajment__container container">
+          <div class="menajment__row row">
+            <div class="menajment__img col-md-6 col-md-offset-1">
+              <img src="./img/colab.svg" alt="colab">
+            </div>
+            <div class="menajment__des col-md-5">
+              <p class="menejment__sub-titile">Effortless Validation for</p>
+              <h2 class="menejment__title">Collaborative</h2>
+              <p class="menejment__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+              <p class="menejment__inner-title">Accessory makers</p>
+              <p class="menejment__text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+              <p class="menejment__inner-title">Accessory makers</p>
+              <p class="menejment__text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="protses">
+        <div class="protses__container container">
+          <h2 class="protses__title">Quick & Easy Process</h2>
+          <p class="protses__text">Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
+          <ul class="protses__row row col-md-12">
+            <li class="row protses__list">
+              <div class="protses__item protses__big-item">I can take care of your pitch</div>
+              <div class="protses__item protses__big-item">I can take care of your pitch</div>
+            </li>
+            <li class="row protses__list protses__list--activ">
+             <div class="protses__item">I can take care of your pitch</div>
+             <div class="protses__item">I can take care of your pitch</div>
+            </li>
+          </ul>
+          <div class="protses__btn">
+            <a class="btn" href="#">Contact our expert</a>
+          </div>
+        </div>
+      </section>
+      <section id="contents">
+        <div class="contects__container container">
+          <h2 class="contents__title">Contents Strategies</h2>
+          <p class="contents__text">We focus on ergonomics and meeting you where you work. It's only a keystroke</p>
+          <ul class="contents__list">
+            <li class="cotents__item">
+              <div class="cotents__img"><img src="./img/con1.jpg" alt="contents__img"></div>
+              <div class="cotents__times">
+                <time class="contents__time" datetime="2021-10-05">By<span>Wahid Ari |</span> 03 March 2019</time>
+                <h3 class="contents__iner-title">Increasing Prosperity With Positive Thinking</h3>
+              </div>
+            </li>
+            <li class="cotents__item">
+              <div class="cotents__img"><img src="./img/con2.jpg" alt="contents__img"></div>
+              <div class="cotents__times">
+                <time class="contents__time" datetime="2021-10-05">By<span>Wahid Ari |</span> 03 March 2019</time>
+                <h3 class="contents__iner-title">Increasing Prosperity With Positive Thinking</h3>
+              </div>
+            </li>
+            <li class="cotents__item">
+              <div class="cotents__img"><img src="./img/con3.jpg" alt="contents__img"></div>
+              <div class="cotents__times">
+                <time class="contents__time" datetime="2021-10-05">By<span>Wahid Ari |</span> 03 March 2019</time>
+                <h3 class="contents__iner-title">Increasing Prosperity With Positive Thinking</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
   <script src="./js/main.js"></script>
 </body>
 </html>

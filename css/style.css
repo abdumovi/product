@@ -846,7 +846,7 @@ p{
   transition: all .3s ease;
 }
 .prisce__block{
-  width: 322px; 
+  width: 293px;; 
   margin: 0 auto; 
   margin-bottom: 32px;
 }
@@ -908,7 +908,7 @@ p{
   border: 1px solid #DEDEDE;
   box-sizing: border-box;
   border-radius: 5px;
-  width: 327px; 
+  width: 295px;
   padding: 28px;
   margin: 0 auto;
 }
@@ -994,6 +994,10 @@ p{
   }
   .clients__item{
     margin-bottom: 0;
+  }
+  .clients__block{
+    width: 327px;
+   
   }
 }
 .join__block{
@@ -1122,7 +1126,7 @@ p{
   line-height: 30px;
   text-align: center;
   color: var(--text-black);
-  width: 280px;
+  width: 276px;
   margin: 0 auto;
   margin-bottom: 34px;
 }
@@ -1134,7 +1138,7 @@ p{
   flex-direction: column;
 }
 .site-foter__input{
-  width: 325px;
+  width: 276px;
   display: block;
   margin: 0 auto;
   margin-bottom: 21px;

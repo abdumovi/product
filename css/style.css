@@ -268,7 +268,7 @@ p{
   background-repeat: no-repeat;
   background-image: url('../img/bg.png');
   background-position: bottom center;
-  background-size: 1208px 201px;
+  
 }
 .futudre__title{
   font-style: normal;
@@ -362,9 +362,8 @@ p{
     flex-direction: row;
   }
   #futudre{
-    padding-bottom: 150px;
+    padding-bottom: 70px;
     
-    background-size: 2223px 389px;
   }
   .futudre__title{
     width: 539px;
@@ -1352,6 +1351,17 @@ p{
 .work__reverse{
   flex-direction: row-reverse;
 }
+.work__btn{
+  width: 249px;
+  margin: 0 auto;
+  margin-top: 88px;
+  
+}
+@media screen and (max-width: 576px){
+  .work__btn{
+    display: none;
+  }
+}
 @media screen and (max-width: 768px){
   .work__reverse,.work__revers2{
     flex-direction: column-reverse;
@@ -1359,6 +1369,7 @@ p{
   .work__img{
     margin-bottom: 69px;
   }
+  
 }
 #bisnes{
   padding-bottom: 150px;
